@@ -1,0 +1,110 @@
+body {
+  background: #f6f6f6;
+}
+
+#header {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 90.62px;
+  display: flex;
+  align-items:center;
+}
+#header a{
+    text-decoration: none;
+}
+#header__logo{
+    display: flex;
+    width: 149px;
+    height: 36.23px;
+    left: 150px;
+    padding-top: 50px;
+}
+.header__logo_icon{
+    width: 35px;
+    height: 36.23px;
+
+}
+.header__logo_text{
+width: 104px;
+height: 24px;
+padding-top:6px;
+padding-bottom: 6px;
+padding-left:10px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: #0B132A;
+font-weight:bold
+}
+
+
+
+
+
+
+
+
+
+.header__nav{
+    /*NAVIGATION*/
+    padding-top:50px ;
+    padding-left: 157px;
+    padding-right: 150px;
+}
+.header__nav a{
+    color: #4F5665;
+}
+
+.header__nav,
+.header__nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.header__nav li {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+
+
+
+
+.header__buttons{    
+    display: flex;
+    justify-content: center;
+    padding-top: 58.62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    
+}
+#header__button_sign_in{
+    font-family: 'Rubik';
+    border: none;
+    outline: none;
+    background: #f6f6f6;
+    color: #0B132A;
+    font: 16px;
+    line-height: 19px;
+}
+#header__button_sign_up{
+    font-family: 'Rubik';
+    box-sizing: border-box;
+    border: 1px solid #F53855;
+    background: #f6f6f6;
+    border-radius: 50px;
+    color: #F53855;
+    padding: 13px 45px 13px 45px;
+    margin-left:30px;
+    font: 16px;
+    line-height: 19px;
+}
