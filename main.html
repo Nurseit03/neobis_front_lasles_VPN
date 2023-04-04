@@ -6,24 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lasles VPN</title>
         <link rel="shortcut icon" href="img/logo.svg">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         <link href="css/cssreset.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header">
-            <a href="main.html">
-                <div id="header__logo">
-                    <img class="header__logo_icon" src="img/logo.svg" alt="logo">
-                    <p class="header__logo_text">LaslesVPN</p>
-                </div>
-            </a>
-            
-
-
-
-
-
-            <nav class="header__nav">
+        <header class="header">
+            <nav class="header__nav container">
+              <div class="header__logo">
+                <a href="main.html">
+                    <div id="header__logo">
+                        <img src="img/logo/logo.svg" alt="logo">
+                    </div>
+                </a>
+              </div>
+              <div class="header__links">
                 <ul>
                     <li><a itemprop="url" rel="nofollow" href="#" title="About" target="_blank" class="nav_item">About</a></li>
                     <li><a itemprop="url" rel="nofollow" href="#" title="Features" class="nav_item">Features</a></li>
@@ -31,25 +27,38 @@
                     <li><a itemprop="url" rel="nofollow" href="#" title="Testimonials" class="nav_item">Testimonials</a></li>
                     <li><a itemprop="url" rel="nofollow" href="#" title="Help" class="nav_item">Help</a></li>
                 </ul>
-            </nav>
-
-
-
-
-
-            <div class="header__buttons">
-                <button type="button" id="header__button_sign_in">Sign In</button>
-                <button type="button" id="header__button_sign_up">Sign Up</button>
             </div>
-        </div>
-        
+            <div class="header__buttons">
+                <button type="button" class="header__buttons_sign_in"><a href="#">Sign In</a></button>
+                <button type="button" class="header__buttons_sign_up"><a href="#">Sign Up</a></button>
+            </div>
+            </nav>
+          </header>
+
+
+
+        <main class="main">
+            <section class="hero ui-container">
+                <div>
+                    <h1 class="hero__title">Want anything to be easy with LaslesVPN.</h1>
+                    <p class="hero__text">
+                        Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.
+                    </p>
+                    <div class="hero__button">
+                        <button type="button" class="red_button">Get Started</button>
+                      </div>
+                </div>
+                <div class="about__illustration1">
+                    <img src="img/Illustration 1.png" alt="Illustration 1">
+                </div>
+                
+            </section>        
+        </main>
 
 
 
 
-
-        <div id="main"></div>
-        <div id="footer"></div>
+        <footer class="footer"></footer>
         <script src="js/index.js"></script>
     </body>
 </html>
