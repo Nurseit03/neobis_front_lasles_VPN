@@ -1,0 +1,121 @@
+body {
+  background: #FFFFFF;
+}
+.header{
+  margin-top:45px ;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+} 
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item:hover{
+  color: #F53855;
+}
+.header_links, .header__links ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.header__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.header__buttons_sign_in{
+  background: #FFFFFF;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header__buttons_sign_in:hover {
+  color: #F53855;
+}
+.header__buttons_sign_up {
+  border: 1px solid #F53855;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F53855;
+  background: #FFFFFF;
+}
+.header__buttons_sign_up:hover {
+  background-color: #F53838;
+  color: #FFFFFF;
+}
+
+
+
+
+/****MAIN SECTION****/
+.main{
+  width: 1140px;
+  margin: 0 auto;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: var(--color-light);
+  margin-top: 120.9px;
+}
+.hero__title{
+  width: 555px;
+  height: 140px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0B132A;
+}
+.hero__text{
+  width: 555px;
+  height: 60px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-top: 20px;
+}
+.hero__button {
+  margin-top: 50px;
+}
+.red_button {
+  width: 250px;
+  height: 60px;
+  background: #f53838;
+  border-radius: 10px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
+}
+.red_button:hover {
+  font-size: 16.4px;
+}
+.red_button:hover {
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.55);
+}
+
+.red_button:active {
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.45);
+}
