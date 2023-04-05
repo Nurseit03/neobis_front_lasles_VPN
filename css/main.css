@@ -119,3 +119,101 @@ body {
 .red_button:active {
   box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.45);
 }
+
+
+
+/**************** stats ***********/
+.stats{
+  margin-top:102px;
+  width: 1140px;
+  height: 200px;
+}
+.stats__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 30px 90px rgba(13, 16, 37, 0.25);
+}
+  
+.stats__item{
+  display: flex;
+  align-items: center;
+}
+.stats__item p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0B132A;
+}
+.stats__item span {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.stats__item img {
+  height: 55px;
+  width: 55px;
+  margin-right: 37px;
+}
+
+
+/**************** hero2 ***********/
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: #FFFFFF;
+  margin-top: 108px;
+}
+
+.features__title{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+}
+
+.features__text{
+  margin-top: 20px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.features__text li {
+  list-style-image: url(img/logo/green_circle.svg);
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.features__text li:first-child {
+  margin-top: 20px;
+}
+
+.features__text li:not(:first-child) {
+  margin-top: 15px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.features__text-container{
+  order: 2;
+}
+.features__illustration{
+  order:1;
+}
+
