@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 body {
   background: #FFFFFF;
 }
+
+/************************* HEADER ****************************/
+
 .header{
   margin-top:45px ;
 }
@@ -60,15 +65,15 @@ body {
 
 
 
-/****MAIN SECTION****/
-.main{
+/**************************** MAIN SECTION ****************************/
+/* .main{
   width: 1140px;
   margin: 0 auto;
-}
+} */
 .hero {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  background-color: var(--color-light);
+  background-color: #FFFFFF;
   margin-top: 120.9px;
 }
 .hero__title{
@@ -107,30 +112,25 @@ body {
   line-height: 25px;
   color: #FFFFFF;
   text-align: center;
-  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
+  box-shadow: 0px 25px 50px  #F5383859;
 }
 .red_button:hover {
-  font-size: 16.4px;
+  box-shadow: 0px 25px 50px  #f8010159;
 }
-.red_button:hover {
-  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.55);
-}
-
 .red_button:active {
-  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.45);
+  box-shadow: 0px 25px 50px  #F5383859;
 }
 
 
-
-/**************** stats ***********/
-.stats{
+/**************************** STATS SECTION ****************************/
+.statistics{
   margin-top:102px;
   width: 1140px;
   height: 200px;
 }
-.stats__container{
+.statistics__box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #FFFFFF;
   height: 200px;
@@ -138,11 +138,11 @@ body {
   box-shadow: 0px 30px 90px rgba(13, 16, 37, 0.25);
 }
   
-.stats__item{
+.statistics__item{
   display: flex;
   align-items: center;
 }
-.stats__item p {
+.statistics__item p {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
@@ -150,19 +150,19 @@ body {
   line-height: 30px;
   color: #0B132A;
 }
-.stats__item span {
+.statistics__item span {
   font-size: 20px;
   line-height: 30px;
   color: #4f5665;
 }
-.stats__item img {
+.statistics__item img {
   height: 55px;
   width: 55px;
   margin-right: 37px;
 }
 
 
-/**************** hero2 ***********/
+/**************************** FEATURES SECTION ****************************/
 
 .features {
   display: grid;
@@ -190,10 +190,8 @@ body {
   color: #4F5665;
 }
 
-.features__text li {
-  list-style-image: url(img/logo/green_circle.svg);
-  list-style-type: circle;
-  list-style-position: inside;
+.features__text img {
+  margin-right: 12.08px;
 }
 
 .features__text li:first-child {
@@ -210,10 +208,125 @@ body {
   color: #4F5665;
 }
 
-.features__text-container{
+.features__text-box{
   order: 2;
 }
 .features__illustration{
   order:1;
 }
 
+/**************************** CHOOSE PLAN SECTION ****************************/
+.text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0B132A;
+}
+.plan {
+  margin-top: 100px;
+  text-align: center;
+  background-color:#F8F8f8; 
+}
+.plan__box{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.plan__header{
+  padding-top: 82px;
+}
+.plan__header h1{
+  margin-bottom:20px ;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B132A;
+}
+.plan__header p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.plan__cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.plan__cards__item{
+  position: relative;
+  box-sizing: border-box;
+  width: 330px;
+  height: 760px;
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+.plan__cards__item:hover{
+  border: 2px solid #F53838;
+}
+.item__image{
+  margin: 79.63px 92.55px 30px 92.55px ;
+  width: 144.9px;
+  height: 165.37px;
+}
+.item__image__title{
+  margin-bottom: 30px;
+}
+
+.item__text li{
+  text-align: left;
+  margin-left: 69.87px;
+  margin-bottom: 10px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.item__text li:last-child{
+  margin-bottom: 0px;
+}
+
+.plan__item__price{
+  margin: 0 76.06px 0px 76.06px;
+  bottom: 50px;
+  position: absolute;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0B132A;
+} 
+.plan__item__price__text{
+  margin-bottom:20px ;
+}
+.plan__item__price button{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  width: 177.88px;
+  height: 45px;
+  border: 2px solid #F53838;
+  color: #f53838;
+  background-color:#FFFFFF;
+  border-radius: 50px;
+  box-sizing: border-box;
+} 
+.plan__item__price button:hover {
+  background-color: #F53838;
+  color: #FFFFFF;
+  box-shadow: 0px 15px 50px  #f8010159;
+}
