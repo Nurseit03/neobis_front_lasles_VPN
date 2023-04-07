@@ -21,10 +21,21 @@ body {
 .nav_item:hover{
   color: #F53855;
 }
-.header_links, .header__links ul {
+.header__links, .header__links ul {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+}
+.header__links{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #4F5665;
 }
 .header__buttons {
   display: flex;
@@ -208,7 +219,7 @@ body {
   color: #4F5665;
 }
 
-.features__text-box{
+.features__text__box{
   order: 2;
 }
 .features__illustration{
@@ -226,6 +237,7 @@ body {
   color: #0B132A;
 }
 .plan {
+  padding-top:82px;
   margin-top: 100px;
   text-align: center;
   background-color:#F8F8f8; 
@@ -235,10 +247,11 @@ body {
     margin: 0 auto;
 }
 
-.plan__header{
-  padding-top: 82px;
+.box__header{
+  text-align: center;
 }
-.plan__header h1{
+
+.box__header  h1{
   margin-bottom:20px ;
   font-family: 'Rubik';
   font-style: normal;
@@ -248,7 +261,7 @@ body {
   text-align: center;
   color: #0B132A;
 }
-.plan__header p{
+.box__header p{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -306,10 +319,13 @@ body {
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
-  color: #0B132A;
 } 
 .plan__item__price__text{
   margin-bottom:20px ;
+  color: #4F5665;
+}
+.plan__item__price__text b{
+  color:#0B132A;
 }
 .plan__item__price button{
   font-family: 'Rubik';
@@ -329,4 +345,134 @@ body {
   background-color: #F53838;
   color: #FFFFFF;
   box-shadow: 0px 15px 50px  #f8010159;
+}
+
+
+/**************************** NETWORK LOCATION SECTION ****************************/
+.network_location {
+  padding-top: 150px;
+  background-color:#F6F6f6; 
+}
+.network_location__box{
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.network_location__map{
+  padding-top:155.81px;
+}
+.social_media{
+  display: flex;
+  justify-content: space-between;
+  width: 1135.64px;
+  height: 208.32px;
+  align-items: center;
+}
+.social_media img:not(#spotify){
+  margin-right: 47.5px;
+}
+
+/**************************** REWIEVS SECTION ****************************/
+.rewiev{
+  padding-top: 50px;
+  background-color:#F6F6f6;
+}
+.rewiev__box{
+  width: 1140px;
+  margin: 0 auto;
+}
+.story__box{
+  display: flex;
+  margin-top: 60px;
+}
+.story__item{
+  padding: 30px 30px 0px 30px;
+  width: 400px;
+  height: 230px;
+  margin-right: 50px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  background: #F6F6F6;
+}
+.story__item:hover{
+  border: 2px solid #F53838;
+}
+.customer__info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.customer__name__from{
+  margin-left: 20px;
+  height: 50px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.customer__name__from b{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+}
+
+
+.customer__from{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.customer__grade{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+}
+.customer__story{
+  width: 340px;
+  height: 100px;
+  text-overflow: ellipsis;
+  /* overflow: hidden; */
+}
+.customer__story p{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.customer__item__swapper{
+  display: flex;
+  gap: 30px;
+}
+.customer__item__swapper b{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.customer__item__swapper button{
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+.customer__item__swapper button:hover{
+  border: 1px solid #F53838;
+  background: #f53838;
+}
+.customer__item__swapper:active{
+  border: 1px solid #F53838;
+  background-color: #f53838;
 }
