@@ -11,6 +11,7 @@ body {
 }
 .container{
   width: 1140px;
+  height: auto;
   margin: 0 auto;
 } 
 .header__nav {
@@ -433,6 +434,7 @@ body {
   color: #4F5665;
 }
 .customer__grade{
+  padding-left: 90px;
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
@@ -456,8 +458,11 @@ body {
 }
 
 .customer__item__swapper{
+  margin-top: 60px;
+  /* margin-bottom: 65.02px; */
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 .customer__item__swapper b{
   font-size: 20px;
@@ -472,7 +477,56 @@ body {
   border: 1px solid #F53838;
   background: #f53838;
 }
-.customer__item__swapper:active{
-  border: 1px solid #F53838;
-  background-color: #f53838;
+
+/**************************** FOOTER ****************************/
+.footer{
+  background: #F8F8f8;
+}
+.footer__box{
+  display: flex;
+  padding-top:30px;
+}
+.footer__aboutVPN{
+  height: minmax(100%,auto);
+  width:340px;
+  display: grid;
+  grid-row-gap:30px;
+  margin-right: 230px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.footer__aboutVPN__socials{
+  display: flex;
+  gap: 20px;
+}
+.footer__aboutVPN__socials img{
+  border-radius: 100%;
+  background: #F53838;
+}
+
+.footer__columns{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 126px;
+}
+.footer__column{
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.footer__column b {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
 }
