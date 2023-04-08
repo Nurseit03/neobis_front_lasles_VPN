@@ -471,10 +471,15 @@ body {
 .swap__right:hover{
   background-color: #F53838;
 }
+.swap__left{
+  transform: rotate(180deg);
+}
 .swap__left:hover{
   background-color: #F53838;
-  transform: rotate(180);
 }
+/* .swap__right{
+  background-color: ;
+} */
 /**************************** FOOTER ****************************/
 .footer{
   background: #F8F8f8;
