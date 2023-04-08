@@ -82,13 +82,13 @@ body {
   width: 1140px;
   margin: 0 auto;
 } */
-.hero {
+.about {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   background-color: #FFFFFF;
   margin-top: 120.9px;
 }
-.hero__title{
+.about__title{
   width: 555px;
   height: 140px;
   font-family: 'Rubik';
@@ -98,7 +98,7 @@ body {
   line-height: 70px;
   color: #0B132A;
 }
-.hero__text{
+.about__text{
   width: 555px;
   height: 60px;
   font-family: 'Rubik';
@@ -109,7 +109,7 @@ body {
   color: #4F5665;
   margin-top: 20px;
 }
-.hero__button {
+.about__button {
   margin-top: 50px;
 }
 .red_button {
