@@ -459,25 +459,22 @@ body {
 
 .customer__item__swapper{
   margin-top: 60px;
-  /* margin-bottom: 65.02px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.customer__item__swapper b{
-  font-size: 20px;
-  color: #FFFFFF;
-}
 .customer__item__swapper button{
   width: 60px;
   height: 60px;
-  border-radius: 40px;
+  border-radius: 100%;
 }
-.customer__item__swapper button:hover{
-  border: 1px solid #F53838;
-  background: #f53838;
+.swap__right:hover{
+  background-color: #F53838;
 }
-
+.swap__left:hover{
+  background-color: #F53838;
+  transform: rotate(180);
+}
 /**************************** FOOTER ****************************/
 .footer{
   background: #F8F8f8;
