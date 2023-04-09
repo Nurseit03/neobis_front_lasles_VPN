@@ -376,7 +376,7 @@ body {
 /**************************** REWIEVS SECTION ****************************/
 .rewiev{
   padding-top: 50px;
-  background-color:#F6F6f6;
+  background-color:#F6F6F6;
 }
 .rewiev__box{
   width: 1140px;
@@ -393,7 +393,7 @@ body {
   margin-right: 50px;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
-  background: #F6F6F6;
+  background: #ffffff;
 }
 .story__item:hover{
   border: 2px solid #F53838;
@@ -466,27 +466,59 @@ body {
 .customer__item__swapper button{
   width: 60px;
   height: 60px;
+  border: 1px solid #F53838;
+  background: #FFFFFF;
   border-radius: 100%;
 }
-.swap__right:hover{
-  background-color: #F53838;
-}
-.swap__left{
-  transform: rotate(180deg);
+.swapper__buttons{
+  display: flex;
+  gap: 20px;
 }
 .swap__left:hover{
   background-color: #F53838;
 }
-/* .swap__right{
-  background-color: ;
-} */
+.swap__right{
+  /* transform: rotate(180deg); */
+}
+.swap__right:hover{
+  background-color: #F53838;
+  
+}
+/**************************** SUBSCRIBE SECTION ****************************/
+.subscribe{
+  background: #f6f6f6;
+  width: 1440;
+  height: auto;
+  margin: 0 auto;
+  padding-top:65.02px;
+  padding-bottom:65.02px;
+
+}
+.subscribe__text{
+  width: 410px;
+  text-align: left;
+}
+.subscribe__text  h1{
+  text-align: left;
+}
+
+.subscribe__box{
+  display: flex;
+  padding: 58.5px 70px 58.5px 70px;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+
 /**************************** FOOTER ****************************/
 .footer{
-  background: #F8F8f8;
+  background: #F8F8F8;
 }
 .footer__box{
   display: flex;
   padding-top:30px;
+  padding-bottom: 100px;
 }
 .footer__aboutVPN{
   height: minmax(100%,auto);
